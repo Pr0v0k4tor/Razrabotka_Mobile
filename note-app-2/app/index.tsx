@@ -21,7 +21,7 @@ export default function Index() {
           </Link>
         )}
       />
-      {/*Функция для хука, создавающая заметку*/}
+      {/*Функция для хука, Создающая заметку*/}
       <TouchableOpacity onPress={createNote} style={styles.addBtn}>
         <Entypo name="add-to-list" size={24} color="black" style={styles.addBtnText}/>
       </TouchableOpacity>
@@ -60,3 +60,4 @@ const styles = StyleSheet.create({
     lineHeight: 32,
   },
 });
+
